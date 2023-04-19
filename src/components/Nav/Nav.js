@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import LittleLemonLogo from "../../icons_assets/Logo.svg";
 import "./Nav.css";
 
@@ -8,22 +9,22 @@ function Nav() {
         <img src={LittleLemonLogo}></img>
         <ul>
           <li>
-            <a>Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a>About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a>Menu</a>
+            <Link to="/specials">Menu</Link>
           </li>
           <li>
-            <a>Reservations</a>
+            <Link to="/reserve-table">Reservations</Link>
           </li>
           <li>
-            <a>Order Online</a>
+            <Link to="/">Order Online</Link>
           </li>
           <li>
-            <a>Login</a>
+            <Link to="/">Login</Link>
           </li>
         </ul>
       </nav>
