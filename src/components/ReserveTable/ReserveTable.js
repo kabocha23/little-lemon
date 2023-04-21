@@ -1,4 +1,4 @@
-import ReserveTableForm from "./components/ReserveTableForm/ReserveTableForm";
+import ReserveTableForm from "../ReserveTableForm/ReserveTableForm";
 import "./ReserveTable.css";
 
 function ReserveTable() {
