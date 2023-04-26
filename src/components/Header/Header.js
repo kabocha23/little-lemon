@@ -1,9 +1,12 @@
+import CallToAction from "../CallToAction/CallToAction";
 import "./Header.css";
 
 function Header() {
   return (
     <>
-      <header></header>
+      <header>
+        <CallToAction />
+      </header>
     </>
   );
 }
