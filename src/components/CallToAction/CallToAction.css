@@ -1,0 +1,16 @@
+.calltoaction-container {
+    display: flex;
+    background-color: #495E57;
+}
+.calltoaction-container h1 {
+    color: #b39710;
+}
+.calltoaction-container button {
+    background-color: #F4CE15;
+}
+.calltoaction-sub {
+    max-width: 1280px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
